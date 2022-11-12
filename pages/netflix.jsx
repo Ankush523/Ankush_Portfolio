@@ -17,8 +17,8 @@ const netflix = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Netflix App</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className='py-2'>SuperStream</h2>
+          <h3>React JS / Tailwind / Superfluid SDK</h3>
         </div>
       </div>
 
@@ -27,27 +27,19 @@ const netflix = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this application in React JS and is hosted on GitHub pages.
-            This app features user authentication with firebase as well as the
-            firestore cloud storage database. This application is pulling movie
-            data from an the IMDB movie API and displaying different categories.
-            It features horizontal sliding and a featured selection. The
-            useContext hook is also being implemented for app-wide state
-            management.
+          A decentralised platform that allows users to stream their monthly recurring payments. 
+          Integrated with SuperFluid SDK streaming money has a simpler onboarding experience and a 
+          smoother payment experience.Companies can stream their employee salaries on a per second 
+          basis thus preventing a huge chunk of money from getting debited at a particular time of 
+          the month.On a day to day basis a user can stream their OTT subscriptions, rents and other 
+          such recurring payments through SuperStream.
           </p>
           <a
-            href='https://github.com/fireclint/netflix-react-tailwind'
+            href='https://github.com/Ankush523/SuperStream'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
-          </a>
-          <a
-            href='https://fireclint.github.io/netflix-react-tailwind/'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <button className='px-8 py-2 mt-4'>Demo</button>
           </a>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
@@ -64,10 +56,7 @@ const netflix = () => {
                 <RiRadioButtonFill className='pr-1' /> Javascript
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> IMDB API
+                <RiRadioButtonFill className='pr-1' /> Superfluid SDK
               </p>
             </div>
           </div>

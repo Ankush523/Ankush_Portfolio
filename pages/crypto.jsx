@@ -18,7 +18,7 @@ const crypto = () => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Crypto App</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h3>React JS / Tailwind</h3>
         </div>
       </div>
 
@@ -38,14 +38,14 @@ const crypto = () => {
             package. This application was built using the Coin Gecko API.
           </p>
           <a
-            href='https://github.com/fireclint/crypto-react-firebase'
+            href='https://github.com/Ankush523/cryptoverse'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://cryptobase-yt.web.app/'
+            href='https://cryptoverse-tawny.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
@@ -67,13 +67,7 @@ const crypto = () => {
                 <RiRadioButtonFill className='pr-1' /> Javascript
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Coin Gecko API
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Routes
               </p>
             </div>
           </div>

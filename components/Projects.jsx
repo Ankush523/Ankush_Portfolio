@@ -40,7 +40,7 @@ const Projects = () => {
             title='Twitch UI'
             backgroundImg={twitchImg}
             projectUrl='/twitch'
-            tech='Next JS'
+            tech='React JS'
 
           />
         </div>
