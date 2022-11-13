@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
+import ceroImg from '../public/assets/projects/cero.jpg';
 import cryptoImg from '../public/assets/projects/crypto.jpg'
-import netflixImg from '../public/assets/projects/netflix.jpg'
-import twitchImg from '../public/assets/projects/twitch.jpg'
+import streamImg from '../public/assets/projects/stream.jpg'
+import voteImg from '../public/assets/projects/vote.jpg'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -17,10 +17,10 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Property Finder'
-            backgroundImg={propertyImg}
-            projectUrl='/property'
-            tech='React JS'
+            title='Cerø'
+            backgroundImg={ceroImg}
+            projectUrl='/cero'
+            tech='Graph Protocol'
           />
           <ProjectItem
             title='Crypto App'
@@ -30,16 +30,16 @@ const Projects = () => {
 
           />
           <ProjectItem
-            title='Netflix App'
-            backgroundImg={netflixImg}
-            projectUrl='/netflix'
-            tech='React JS'
+            title='SuperStream'
+            backgroundImg={streamImg}
+            projectUrl='/superstream'
+            tech='SuperFluid'
 
           />
           <ProjectItem
-            title='Twitch UI'
-            backgroundImg={twitchImg}
-            projectUrl='/twitch'
+            title='Vote-D'
+            backgroundImg={voteImg}
+            projectUrl='/vote'
             tech='React JS'
 
           />
